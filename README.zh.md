@@ -32,8 +32,8 @@ skill 就是一个文件：[`skills/tip-of-tongue/SKILL.md`](skills/tip-of-tongu
 **Claude Code**
 
 ```bash
-git clone https://github.com/OWNER/REPO.git
-cp -r REPO/skills/tip-of-tongue ~/.claude/skills/
+git clone https://github.com/you615074-png/tip-of-tongue.git
+cp -r tip-of-tongue/skills/tip-of-tongue ~/.claude/skills/
 ```
 
 可以自动触发，也可以用 `/tip-of-tongue` 手动调用。
@@ -41,17 +41,17 @@ cp -r REPO/skills/tip-of-tongue ~/.claude/skills/
 **Codex CLI**
 
 ```bash
-cp -r REPO/skills/tip-of-tongue ~/.codex/skills/
+cp -r tip-of-tongue/skills/tip-of-tongue ~/.codex/skills/
 ```
 
 **Claude.ai（网页或 App）**
 
-从 [Releases](../../releases) 下载 `tip-of-tongue.zip`，进入 **Customize → Skills → + → Upload a skill** 上传。上传后默认关闭，需要手动打开。
+从 [Releases](https://github.com/you615074-png/tip-of-tongue/releases) 下载 `tip-of-tongue.zip`，进入 **Customize → Skills → + → Upload a skill** 上传。上传后默认关闭，需要手动打开。
 
 **其他工具（Cursor、Gemini CLI 等）**
 
 ```bash
-npx skills add OWNER/REPO
+npx skills add you615074-png/tip-of-tongue
 ```
 
 ## 试一试

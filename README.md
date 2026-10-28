@@ -44,8 +44,8 @@ The skill is a single file, [`skills/tip-of-tongue/SKILL.md`](skills/tip-of-tong
 **Claude Code**
 
 ```bash
-git clone https://github.com/OWNER/REPO.git
-cp -r REPO/skills/tip-of-tongue ~/.claude/skills/
+git clone https://github.com/you615074-png/tip-of-tongue.git
+cp -r tip-of-tongue/skills/tip-of-tongue ~/.claude/skills/
 ```
 
 Use it automatically, or call it with `/tip-of-tongue`.
@@ -53,17 +53,17 @@ Use it automatically, or call it with `/tip-of-tongue`.
 **Codex CLI**
 
 ```bash
-cp -r REPO/skills/tip-of-tongue ~/.codex/skills/
+cp -r tip-of-tongue/skills/tip-of-tongue ~/.codex/skills/
 ```
 
 **Claude.ai (web / app)**
 
-Download `tip-of-tongue.zip` from [Releases](../../releases), then go to **Customize → Skills → + → Upload a skill**. Uploaded skills are off by default — switch it on.
+Download `tip-of-tongue.zip` from [Releases](https://github.com/you615074-png/tip-of-tongue/releases), then go to **Customize → Skills → + → Upload a skill**. Uploaded skills are off by default — switch it on.
 
 **Other tools (Cursor, Gemini CLI, …)**
 
 ```bash
-npx skills add OWNER/REPO
+npx skills add you615074-png/tip-of-tongue
 ```
 
 ## Try it
